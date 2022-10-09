@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDate;
 
 @RestController
-@RequestMapping("/payment")
+@RequestMapping("/calculacte")
 public class VacationController {
     @Autowired
     VacationService vacationService;
