@@ -9,5 +9,5 @@ public interface VacationService {
 
     BigDecimal getVacationPayment(BigDecimal salary, LocalDate startDate, LocalDate endDate);
 
-    int checkWeekEndsDay(Vacation vacation);
+    int countHolidays(Vacation vacation);
 }

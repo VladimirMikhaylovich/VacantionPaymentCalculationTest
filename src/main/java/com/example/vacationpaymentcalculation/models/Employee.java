@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 @Component
 public class Employee {
 
-    Vacation vacation;
+    private Vacation vacation;
 
     private BigDecimal salary;
 

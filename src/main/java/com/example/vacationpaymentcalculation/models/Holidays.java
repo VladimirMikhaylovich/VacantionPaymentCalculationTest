@@ -14,11 +14,10 @@ import java.util.ArrayList;
 @Component
 public class Holidays {
 
-    // private LocalDate nextYear = LocalDate.from(Year.now()).plusYears(1);
-    private LocalDate NEW_YEAR;
-    private LocalDate MILITARY_DAY;
+    private  LocalDate NEW_YEAR;
+    private  LocalDate MILITARY_DAY;
 
-    private LocalDate WOMEN_DAY;
+    private  LocalDate WOMEN_DAY;
 
     private LocalDate VICTORY_DAY;
 
